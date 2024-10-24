@@ -14,10 +14,11 @@ pip install matplotlib==3.3.4
 pip install scikit-image==0.18.1
 pip install nilearn==0.7.0
 pip install nibabel==3.2.1
-pip install gif-your-nifti==0.1.6
 pip install keras==2.4.3
 pip install tensorflow==2.4.1
 pip install scikit-learn==0.24.1
+
+pip install git+https://github.com/miykael/gif_your_nifti
 
 echo '2. Setup Complete'
 
