@@ -1,0 +1,6 @@
+backend/flask/venv/
+__pycache__/
+*.pyc
+front_boot/front_app/node_modules/
+
+front_boot/back_app/node_modules/

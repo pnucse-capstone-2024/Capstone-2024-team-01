@@ -1,0 +1,23 @@
+.legend {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .color-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .yellow-box {
+    background-color: yellow;
+  }
+  
+  .blue-box {
+    background-color: rgb(111,193,204);
+  }
+  
+  .white-box {
+    background-color: white;
+  }
