@@ -1,4 +1,5 @@
-backend/flask/venv/
+backend/flask/venv/3D_MRI_Brain_tumor_segmentation.h5/
+backend/flask/
 __pycache__/
 *.pyc
 front_boot/front_app/node_modules/
