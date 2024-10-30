@@ -27,7 +27,12 @@
 
 2.2. 사용 기술 및 주요 환경
 > + Python, Tensorflow, Keras
-> + 시각화
+> + react, nodejs, flask
+
+2.3 서버 기능
+> + react에 업로드 된 nii파일을 nodejs로 보내주는 역할을 함
+> + nodejs는 nii파일을 flask로 보내 모델을 활용하여 이미지 분석
+> + 이미지 분석한 파일을 nodejs로 보내준 후 데이터베이스에 저장
 
 ### 3. 설치 및 사용법
 
