@@ -1,31 +1,66 @@
 ### 1. 프로젝트 소개
 
-이 프로젝트는 졸업과제를 수행하는 학생들에게 README 작성의 가이드라인을 제공하기 위해 제작되었습니다.
+1.1. 배경 및 필요성
 
-### 2. 팀소개
+> 최근 MRI 급여화 이후 두통 환자 중 MRI 검사의 수가 크게 증가했습니다. 이는 코로나로 인한 환자 감소의 영향이 있음에도 불구하고 코로나 기간에도 폭발적으로 검사 건수가 증가하여, 빠르고 정확한 검사의 필요성이 대두되었습니다. 이를 해결하기 위해 딥 러닝 AI를 통한 검사를 통하여 빠른 진단으로 의료관계자들의 진단에 도움을 줄 수 있는 수단을 마련하여 이에 대응하고자 합니다.
 
-Tony Stark, ironman@marvel.com, 개발총괄
+1.2. 목표 및 주요 내용
 
-Peter Benjamin Parker, spiderman@marvel.com, 알고리즘 설계
+> 본 프로젝트의 목표는 대표적인 3D MRI 뇌종양 데이터셋인 BraTS 데이터셋을 활용하여 뇌종양의 정밀한 Segmentation task를 수행하는 모델을 구축하고 이를 활용하여 웹과 연동해 일종의 연동 체계를 구축하는 것입니다. 이를 위해서 Segmentation을 수행하는 딥 러닝 모델, 사진을 업로드할 DB, 그 결과를 시각화할 웹을 개발했습니다.
 
-Stephen Vincent Strange, doctorstrange@marvel.com, 백앤드 개발
+주요 기능 : 
++ U-Net 구조를 이용한 높은 정확도의 분할 성능을 가진 모델 훈련
++ Adam optimizer, dice coef, cross entropy loss를 사용한 성능 향상 및 최적화
++ 시각화
 
-Robert Bruce Banner, hulk@marvel.com, 프론트엔드 개발
 
-### 3. 시스템 구성도
+### 2. 상세설계
 
-부산대학교 일반대학원 정보융합공학과는 컴퓨터공학전공, AI전공, 의생명융합전공이 있습니다.
+2.1. 시스템 구성도
+![image](https://github.com/user-attachments/assets/eac58169-6c79-4e71-b95a-501653ab9720)
 
-![정보융합공학과 이미지](https://user-images.githubusercontent.com/100384365/192478661-5dc79a18-b076-48ef-b842-bcf65b0d8d44.jpg)
+모델 U-Net 구조도
 
-### 4. 소개 및 시연 영상
+![image](https://github.com/user-attachments/assets/579bf698-0586-4725-8e22-acec90d73d00)
 
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://youtu.be/zh_gQ_lmLqE)
+서버 구조도
 
-### 5. 설치 및 사용법
+2.2. 사용 기술
+> + Python
+> + 시각
 
-본 프로젝트는 Ubuntu 20.04 버전에서 개발되었으며 함께 포함된 다음의 스크립트를 수행하여 
-관련 패키지들의 설치와 빌드를 수행할 수 있습니다.
+2.3. 주요 환경
+> + Tensorflow
+> + keras
+
+### 3. 설치 및 사용법
+
+> + ipynb 파일 다운로드 후 Jupyter Notebook에서 실행
+> + Setup env 환경은 install_and_build.sh로 다운로드
+> + 프론트, 백엔드
+> + 모델 세부 구조 및 최적화 등의 상세 과정은 보고서 참고
+
 ```
 $ ./install_and_build.sh
 ```
+
+
+### 4. 소개 및 시연 영상
+
+[2024년 전기 졸업과제 01 AI만들조]((https://www.youtube.com/watch?v=9Kh_lqWs9pA))
+
+
+### 5. 팀소개
+
+박지환
+- 역할 : 딥러닝 모델 개발, 데이터 전처리, 모델 고도화 및 평가
+- 메일 : pgihwan32@naver.com
+
+허진수
+- 역할 : 애플리케이션 구현, API 개발, 개발환경 숙달
+- 메일 : j5086@naver.com
+
+
+
+
+
