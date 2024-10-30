@@ -33,6 +33,7 @@
 
 > + Setup env 환경은 install_and_build.sh로 다운로드
 > + 
+> + 프론트, 백엔드
 > + 모델 세부 구조 및 최적화 등의 상세 과정은 보고서 참고
 
 ```
@@ -45,6 +46,16 @@ git clone https://github.com/pnucse-capstone-2024/Capstone-2024-team-01.git
 cd web
 cd backend/flask
 
+// venv 활용
+python -m venv myenv
+
+# 가상 환경 활성화 (Windows)
+myenv\Scripts\activate
+
+# 가상 환경 활성화 (macOS/Linux)
+source myenv/bin/activate
+
+pip install matplotlib opencv-python numpy tensorflow nibabel Flask flask-cors waitress
 python app.py
 
 // nodejs 실행
