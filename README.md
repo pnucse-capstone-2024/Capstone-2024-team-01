@@ -11,7 +11,7 @@
 주요 기능 : 
 + U-Net 구조를 이용한 높은 정확도의 분할 성능을 가진 모델 훈련
 + Adam optimizer, dice coef, cross entropy loss를 사용한 성능 향상 및 최적화
-+ 시각화
++ Segmentation 시각화
 
 
 ### 2. 상세설계
