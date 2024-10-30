@@ -39,8 +39,6 @@
 // 주피터 노트북 모델 학습
 $ ./install_and_build.sh
 
-
-
 git clone https://github.com/pnucse-capstone-2024/Capstone-2024-team-01.git
 
 // flask 환경 설치
@@ -51,14 +49,16 @@ python app.py
 
 // nodejs 실행
 cd web
-cd front_app/back_app
+cd frontend_boot/back_app
 npm install
 npm run start
 
 
 // react 실행
 cd web
-cd front_app/
+cd frontend_boot/front_app/
+npm install
+npm run dev
 ```
 
 
