@@ -33,7 +33,6 @@
 
 > + Setup env 환경은 install_and_build.sh로 다운로드
 > + ipynb 파일 다운로드 후 Jupyter Notebook 사용
-> + 프론트, 백엔드
 > + 모델 세부 구조 및 최적화 등의 상세 과정은 보고서 참고
 
 ```
