@@ -31,13 +31,34 @@
 
 ### 3. 설치 및 사용법
 
-> + ipynb 파일 다운로드 후 Jupyter Notebook에서 실행
 > + Setup env 환경은 install_and_build.sh로 다운로드
-> + 프론트, 백엔드
+> + 
 > + 모델 세부 구조 및 최적화 등의 상세 과정은 보고서 참고
 
 ```
+// 주피터 노트북 모델 학습
 $ ./install_and_build.sh
+
+
+
+git clone https://github.com/pnucse-capstone-2024/Capstone-2024-team-01.git
+
+// flask 환경 설치
+cd web
+cd backend/flask
+
+python app.py
+
+// nodejs 실행
+cd web
+cd front_app/back_app
+npm install
+npm run start
+
+
+// react 실행
+cd web
+cd front_app/
 ```
 
 
