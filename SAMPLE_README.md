@@ -25,13 +25,9 @@
 
 서버 구조도
 
-2.2. 사용 기술
-> + Python
-> + 시각
-
-2.3. 주요 환경
-> + Tensorflow
-> + keras
+2.2. 사용 기술 및 주요 환경
+> + Python, Tensorflow, Keras
+> + 시각화
 
 ### 3. 설치 및 사용법
 
@@ -47,8 +43,7 @@ $ ./install_and_build.sh
 
 ### 4. 소개 및 시연 영상
 
-[2024년 전기 졸업과제 01 AI만들조]((https://www.youtube.com/watch?v=9Kh_lqWs9pA))
-
+[2024년 전기 졸업과제 01 AI만들조](https://www.youtube.com/watch?v=9Kh_lqWs9pA)
 
 ### 5. 팀소개
 
