@@ -43,7 +43,8 @@ $ ./install_and_build.sh
 
 ### 4. 소개 및 시연 영상
 
-[2024년 전기 졸업과제 01 AI만들조](https://www.youtube.com/watch?v=9Kh_lqWs9pA)
+[![2024년 전기 졸업과제 01 AI만들조](![image](https://github.com/user-attachments/assets/d76d3c02-1a20-49fd-9e18-e9437ddae57e)
+)]([https://www.youtube.com/watch?v=zh_gQ_lmLqE](https://www.youtube.com/watch?v=9Kh_lqWs9pA))
 
 ### 5. 팀소개
 
